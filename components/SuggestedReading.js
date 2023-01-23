@@ -22,6 +22,10 @@ export default function SuggestedReading({ maxCount = 5 }) {
     .filter((post) => post.isPublished)
     .filter((_, index) => index < maxCount);
 
+  if (suggestedPosts.length === 0) {
+    return <></>;
+  }
+
   return (
     <>
       <Line />
