@@ -11,6 +11,7 @@ export const siteMap = {
   about: {
     name: 'Jane Doe',
     description: 'Full Stack Developer',
+    photo: '/images/avatar-photo.png',
   },
   menu: [
     {
@@ -27,15 +28,23 @@ export const siteMap = {
   social: [
     {
       icon: SocialApps.facebook,
-      link: 'https://www.facebook.com/tom.abbott.jr',
+      link: 'https://facebook.com/',
     },
     {
       icon: SocialApps.gitHub,
-      link: 'https://github.com/twabbott',
+      link: 'https://github.com/',
     },
     {
       icon: SocialApps.twitter,
-      link: 'https://twitter.com/TWAbbottJr',
+      link: 'https://twitter.com/',
+    },
+    {
+      icon: SocialApps.linkedIn,
+      link: 'https://linkedin.com/',
+    },
+    {
+      icon: SocialApps.instagram,
+      link: 'https://instagram.com/',
     },
   ],
 };

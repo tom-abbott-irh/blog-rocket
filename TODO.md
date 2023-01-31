@@ -6,7 +6,6 @@ See if you can add better syntax highlighting with [react-syntax-highlighter](ht
 
 ## BUGS:
 
-- For some reason, the suggested posts are picking up un-published articles
 - Front page
   - First three articles should switch to small view if the page width goes below the breakpoint
     - We can fix this by rendering both the big summary _and_ the little summary, then use CSS to control which one is shown/hidden.

@@ -5,7 +5,6 @@ import styled from 'styled-components';
 import SocialApp from '@/components/SocialApp';
 
 import { siteMap, SocialApps } from '../scripts/siteMap';
-import portrait from '../public/images/avatar-photo.png';
 import { responsiveContainer } from '../styles/mixins';
 
 const Container = styled.footer`
@@ -81,7 +80,7 @@ export default function PageFooter() {
         <div className="aboutMe">
           <div className="photo">
             <Image
-              src={portrait}
+              src={siteMap.about.photo}
               width={120}
               height={160}
               alt={siteMap.about.name}
